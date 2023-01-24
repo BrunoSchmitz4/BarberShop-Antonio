@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+
+    margin-top: 20vh;
+}
+
+.texts-login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.title-login, .title-name{
+    text-align: center;
+    margin: 0 1%;
+}
+
+.form-login{
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 2px 2px black;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+
+    padding: 4px;
+    margin: 5%;
+    max-width: 375px;
+}
